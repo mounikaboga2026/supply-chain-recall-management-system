@@ -1,0 +1,2 @@
+event_id,recall_id,event_type,entity_type,entity_id,event_date,details
+EVT-0000001,REC-2026-000001,LOT_QUARANTINED,FINISHED_LOT,FINLOT-000238,2026-10-01,System-generated recall action

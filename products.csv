@@ -1,0 +1,11 @@
+product_id,product_name,category,unit,active_from
+PROD-001,Product 01,Industrial,unit,2025-01-01
+PROD-002,Product 02,Personal Care,unit,2025-01-01
+PROD-003,Product 03,Food,unit,2025-01-01
+PROD-004,Product 04,Industrial,unit,2025-01-01
+PROD-005,Product 05,Personal Care,unit,2025-01-01
+PROD-006,Product 06,Food,unit,2025-01-01
+PROD-007,Product 07,Food,unit,2025-01-01
+PROD-008,Product 08,Food,unit,2025-01-01
+PROD-009,Product 09,Industrial,unit,2025-01-01
+PROD-010,Product 10,Food,unit,2025-01-01

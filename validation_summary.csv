@@ -1,0 +1,31 @@
+check,passed,detail
+products: primary key unique,True,0 duplicates
+material_lots: primary key unique,True,0 duplicates
+customers: primary key unique,True,0 duplicates
+finished_lots: primary key unique,True,0 duplicates
+recall_cases: primary key unique,True,0 duplicates
+production_orders: primary key unique,True,0 duplicates
+bom: primary key unique,True,0 duplicates
+suppliers: primary key unique,True,0 duplicates
+deliveries: primary key unique,True,0 duplicates
+recall_events: primary key unique,True,0 duplicates
+production_consumption: primary key unique,True,0 duplicates
+recall_actions: primary key unique,True,0 duplicates
+shipments: primary key unique,True,0 duplicates
+material_lots.supplier_id -> suppliers.supplier_id,True,0 orphan references
+bom.product_id -> products.product_id,True,0 orphan references
+production_orders.product_id -> products.product_id,True,0 orphan references
+production_orders.bom_id -> bom.bom_id,True,0 orphan references
+production_consumption.production_order_id -> production_orders.production_order_id,True,0 orphan references
+production_consumption.material_lot_id -> material_lots.material_lot_id,True,0 orphan references
+finished_lots.production_order_id -> production_orders.production_order_id,True,0 orphan references
+finished_lots.product_id -> products.product_id,True,0 orphan references
+deliveries.shipment_id -> shipments.shipment_id,True,0 orphan references
+deliveries.finished_lot_id -> finished_lots.finished_lot_id,True,0 orphan references
+deliveries.customer_id -> customers.customer_id,True,0 orphan references
+recall_actions.recall_id -> recall_cases.recall_id,True,0 orphan references
+recall_events.recall_id -> recall_cases.recall_id,True,0 orphan references
+delivered quantity does not exceed produced,True,0 lots exceed production
+raw consumption does not exceed received,True,0 raw lots over-consumed
+material expiry after receipt,True,date order
+production completion after start,True,date order

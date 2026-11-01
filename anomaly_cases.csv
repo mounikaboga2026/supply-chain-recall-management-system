@@ -1,0 +1,5 @@
+anomaly_id,issue_type,entity_type,entity_id,description,expected_detection
+ANOM-001,MISSING_INPUT_LOT,FinishedLot,FINLOT-000001,Synthetic exception: genealogy edge references a missing raw lot.,Flag broken genealogy; exclude from valid traversal.
+ANOM-002,DELIVERED_EXCEEDS_PRODUCED,FinishedLot,FINLOT-000002,Synthetic exception: attempted delivery is greater than produced quantity.,Flag quantity reconciliation failure.
+ANOM-003,MISSED_CUSTOMER_NOTIFICATION,FinishedLot,FINLOT-000003,Synthetic exception: one downstream customer is intentionally omitted from recall actions.,Flag notification coverage below 100%.
+ANOM-004,RECALLED_STOCK_AVAILABLE,FinishedLot,FINLOT-000004,Synthetic exception: recalled stock remains in saleable status.,Flag recall inventory not quarantined.

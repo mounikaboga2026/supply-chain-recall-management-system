@@ -1,0 +1,92 @@
+{
+  "seed": 20261022,
+  "scale": "starter",
+  "provenance": "Fully synthetic; no external personal or confidential data.",
+  "files": [
+    {
+      "file": "anomaly_cases.csv",
+      "rows": 4,
+      "sha256": "771f92796ad4ccf0f4c064edcd01e3d8c11367b375b7078bb4fc527e121f913b"
+    },
+    {
+      "file": "bom.csv",
+      "rows": 30,
+      "sha256": "08df0900604de12bb0fca10135a1f510d976cc947783c9c7138796bfc5000dec"
+    },
+    {
+      "file": "customers.csv",
+      "rows": 150,
+      "sha256": "b0b927fa873ed777f5ba70c4a18cbfac39a60dcbb3dad59c8c933186fba3463b"
+    },
+    {
+      "file": "deliveries.csv",
+      "rows": 600,
+      "sha256": "cbb73c1f06f15c86e8cd8424bebb95eccd371c65ed878df2f808f517f62ee7e3"
+    },
+    {
+      "file": "finished_lots.csv",
+      "rows": 240,
+      "sha256": "f238e009f1c9a863916c21415fdfc6f6d4c3066c0d0f5f954b7d34cfa988821f"
+    },
+    {
+      "file": "ground_truth.csv",
+      "rows": 5,
+      "sha256": "5fe7c3d4fd69274c3da41e3d57604206effc7a4f2ef98aca00117d0d1a526ea5"
+    },
+    {
+      "file": "material_lots.csv",
+      "rows": 300,
+      "sha256": "6ca40599b6c1d754e72a8dec1bec2ca7d0878fdbf75be9179624454c1946420c"
+    },
+    {
+      "file": "production_consumption.csv",
+      "rows": 150,
+      "sha256": "8dec2a2feabe5f7bbea2692b1f620ad96691d6034bf5cd56e5fb10d148c1508e"
+    },
+    {
+      "file": "production_orders.csv",
+      "rows": 150,
+      "sha256": "8e3c439b8981eb673da59e8ed46c216c09842eb916073007b6831c3ebdffe49b"
+    },
+    {
+      "file": "products.csv",
+      "rows": 10,
+      "sha256": "41b54665fe2296fb580a83bcf3d32370a5de262752987177604bc36e381863af"
+    },
+    {
+      "file": "recall_actions.csv",
+      "rows": 5,
+      "sha256": "9a63699a7c0569f320ccf0a36eab1309a99d3a08c51093656e3ba3671a5ba357"
+    },
+    {
+      "file": "recall_cases.csv",
+      "rows": 2,
+      "sha256": "fc893b10d349a703f6463de4e17d5bb18540819d3b4a89d32b8959f56713055e"
+    },
+    {
+      "file": "recall_events.csv",
+      "rows": 1,
+      "sha256": "4c8dbdf38035d664417fb1dbcd5aa7750855f8d2a6e66d91df00e20af281c048"
+    },
+    {
+      "file": "shipments.csv",
+      "rows": 200,
+      "sha256": "4d7958bb52fe4583591adfa01b1991d5480e0f9d9afbfd0dc08013c3dead8f97"
+    },
+    {
+      "file": "suppliers.csv",
+      "rows": 30,
+      "sha256": "877181614a6d5874d17e44f537aef2d7138df9f50a617831632bf8fdfbd73b90"
+    },
+    {
+      "file": "validation_summary.csv",
+      "rows": 30,
+      "sha256": "a0dbf7c649fe06ed3e6fcb966ff8145d8a90c557d5d66a46ac8272c3525e4909"
+    },
+    {
+      "file": "dataset.json",
+      "rows": null,
+      "sha256": "e4f7afe78ecb2759519d5cd6c46b9c8dcd302f4f2f97adc7a1af159c2539da7e"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+record_type,record_id,label,expected
+RECALL_SCOPE,REC-2026-000001,CONTAMINATED_SOURCE,All finished lots produced using trigger raw lot and all downstream deliveries.
+ANOMALY,ANOM-001,MISSING_INPUT_LOT,Flag broken genealogy; exclude from valid traversal.
+ANOMALY,ANOM-002,DELIVERED_EXCEEDS_PRODUCED,Flag quantity reconciliation failure.
+ANOMALY,ANOM-003,MISSED_CUSTOMER_NOTIFICATION,Flag notification coverage below 100%.
+ANOMALY,ANOM-004,RECALLED_STOCK_AVAILABLE,Flag recall inventory not quarantined.

@@ -1,0 +1,3 @@
+recall_id,trigger_type,trigger_lot_id,reason,opened_at,status,ground_truth_case
+REC-2026-000001,RAW,RAWLOT-SUP-000001-2026-000151,Suspected supplier contamination,2026-10-01,OPEN,1
+REC-2026-000002,FINISHED,FINLOT-000240,Finished product quality deviation,2026-10-03,OPEN,0
